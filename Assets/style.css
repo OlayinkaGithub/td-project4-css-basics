@@ -1,0 +1,40 @@
+/* *,
+*::before,
+*::after{
+    box-sizing: border-box;
+} */
+
+html{
+    width: 100%;
+    font-size: 50%;
+}
+
+html body{
+    padding: 0%;
+    margin: 0%;
+    min-height: 100wh;
+    max-width: 100vw;
+    height: 100vh;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+.wrapper{
+    background: none;
+
+}
+
+.home-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: cadetblue;
+}
+
+.home-nav ul{
+    display: flex;
+}
