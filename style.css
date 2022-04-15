@@ -1,12 +1,7 @@
-/* *,
+*,
 *::before,
 *::after{
     box-sizing: border-box;
-} */
-
-html{
-    width: 100%;
-    font-size: 50%;
 }
 
 html body{
@@ -23,7 +18,7 @@ body{
 }
 
 .wrapper{
-    background: none;
+    background: white;
 
 }
 
@@ -31,10 +26,59 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background: cadetblue;
+    padding: 1rem 1rem;
+    background: rgb(7, 194, 201);
+
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
 }
 
 .home-nav ul{
     display: flex;
+    height: 100%;
+    justify-content: space-between;
+    width: 40%;
+    color: #ffff;
+    font-size: 2rem;
+}
+
+.nav-item{
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.profile{
+    justify-items: center;
+    padding-top: 2rem;
+    margin-left: 30rem;
+
+}
+
+.profile-image {
+    width: 100%;
+    padding: 1rem;
+    height: 55%;
+    align-items: center;
+}
+.image-wrapper img{
+    border-radius: 50%;
+    align-items: center;
+   
+}
+.profile-details{
+    align-items: center;
 }
